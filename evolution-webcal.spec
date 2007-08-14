@@ -1,10 +1,10 @@
 %define major_version 2.4
-%define libsoup_version_required 2.2.0
+%define libsoup_version_required 2.3.0
 %define eds_version_required 1.4.0
 
 Name:		evolution-webcal
 Summary:	Webcal integration for Evolution
-Version: 2.10.0
+Version: 2.11.90
 Release:	%mkrel 1
 License: 	GPL
 Group:		Networking/Mail
@@ -14,7 +14,7 @@ URL: 		http://www.ximian.com/products/ximian_evolution/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 BuildRequires: evolution-data-server-devel >= %{eds_version_required}
-BuildRequires: libsoup-devel >= %{libsoup_version_required}
+#BuildRequires: libsoup-devel >= %{libsoup_version_required}
 Buildrequires: libgnomeui2-devel
 BuildRequires: perl-XML-Parser
 Requires: evolution
