@@ -5,8 +5,8 @@
 Name:		evolution-webcal
 Summary:	Webcal integration for Evolution
 Version: 2.12.0
-Release:	%mkrel 3
-License: 	GPL
+Release:	%mkrel 4
+License: 	GPLv2+
 Group:		Networking/Mail
 Source0: 	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 
