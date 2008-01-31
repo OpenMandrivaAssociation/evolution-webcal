@@ -4,8 +4,8 @@
 
 Name:		evolution-webcal
 Summary:	Webcal integration for Evolution
-Version: 2.12.0
-Release:	%mkrel 4
+Version: 2.13.90
+Release:	%mkrel 1
 License: 	GPLv2+
 Group:		Networking/Mail
 Source0: 	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
@@ -14,7 +14,7 @@ URL: 		http://www.ximian.com/products/ximian_evolution/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 BuildRequires: evolution-data-server-devel >= %{eds_version_required}
-#BuildRequires: libsoup-devel >= %{libsoup_version_required}
+BuildRequires: libsoup-devel >= %{libsoup_version_required}
 Buildrequires: libgnomeui2-devel
 BuildRequires: perl-XML-Parser
 Requires: evolution
