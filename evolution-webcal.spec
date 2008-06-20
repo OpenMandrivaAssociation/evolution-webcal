@@ -43,8 +43,10 @@ This package registers "webcal:" URI type to use Evolution.
 
 %define schemas evolution-webcal
 
+%if %mdkversion < 200900
 %post
 %post_install_gconf_schemas %{schemas}
+%endif
 
 %preun
 %preun_uninstall_gconf_schemas %{schemas}
