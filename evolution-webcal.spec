@@ -4,7 +4,7 @@
 
 Name:		evolution-webcal
 Summary:	Webcal integration for Evolution
-Version: 2.26.0
+Version: 2.27.90
 Release:	%mkrel 1
 License: 	GPLv2
 Group:		Networking/Mail
