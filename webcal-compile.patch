@@ -1,0 +1,11 @@
+--- evolution-webcal-2.32.0/src/Makefile.am.bero	2012-06-09 01:32:53.872029688 +0200
++++ evolution-webcal-2.32.0/src/Makefile.am	2012-06-09 01:33:01.430029725 +0200
+@@ -13,7 +13,7 @@ evolution_webcal_SOURCES =	\
+ 	evolution-webcal-notify.h
+ 
+ evolution_webcal_LDADD = \
+-	$(EVOLUTION_WEBCAL_LIBS)
++	$(EVOLUTION_WEBCAL_LIBS) -lgthread-2.0
+ 
+ MAINTAINERCLEANFILES = \
+ 	Makefile.in

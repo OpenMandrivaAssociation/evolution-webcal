@@ -1,0 +1,11 @@
+--- evolution-webcal-2.32.0/src/evolution-webcal-main.c~	2010-05-26 21:10:27.000000000 +0000
++++ evolution-webcal-2.32.0/src/evolution-webcal-main.c	2012-06-16 00:46:28.866735294 +0000
+@@ -252,8 +252,6 @@
+   textdomain (GETTEXT_PACKAGE);
+ #endif
+ 
+-  g_thread_init (NULL);
+-
+   if (!gtk_init_with_args (&argc, &argv,
+ 			_("- Evolution webcal: URI Handler"),
+ 			options,
