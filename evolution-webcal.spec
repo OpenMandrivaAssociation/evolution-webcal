@@ -21,7 +21,7 @@ This package registers "webcal:" URI type to use Evolution.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 aclocal
 automake -a
 
