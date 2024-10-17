@@ -4,7 +4,7 @@ Version:	2.32.0
 Release:	5
 License:	GPLv2
 Group:		Networking/Mail
-URL:		http://www.ximian.com/products/ximian_evolution/
+URL:		https://www.ximian.com/products/ximian_evolution/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		evolution-webcal-2.32.0_g_thread.patch
 Patch1:		webcal-compile.patch
